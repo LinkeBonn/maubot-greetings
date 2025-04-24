@@ -1,0 +1,4 @@
+watch_room: "!raumid:deinserver.de"
+welcome_message: "👋 Willkommen {user} im Raum!"
+notification_room: "!itraumid:deinserver.de"
+notification_message: "📥 {user} ist dem Raum {room} beigetreten."

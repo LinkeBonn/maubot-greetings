@@ -1,0 +1,14 @@
+maubot: 0.1.0
+id: de.linkebonn.welcomebot
+version: 0.1.0
+license: MIT
+modules:
+  - welcome_bot
+main_class: WelcomeBot
+config: true
+extra_files:
+  - base-config.yaml
+dependencies:
+  - mautrix>=0.10.0
+webapp: false
+database: false
