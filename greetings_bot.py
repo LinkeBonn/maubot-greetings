@@ -19,7 +19,7 @@ class GreetingsBot(Plugin):
         await super().start()
         self.config.load_and_update()
         self.client.add_dispatcher(MembershipEventDispatcher)
-        self.log.info("WelcomeBot gestartet.")
+        self.log.info("GreetingsBot gestartet.")
 
     @event.on(InternalEventType.JOIN)
     async def on_join(self, evt: StateEvent) -> None:
