@@ -1,10 +1,10 @@
 maubot: 0.1.0
-id: de.linkebonn.welcomebot
+id: de.linkebonn.greetings
 version: 0.1.0
 license: MIT
 modules:
-  - welcome_bot
-main_class: WelcomeBot
+  - greetings_bot
+main_class: GreetingsBot
 config: true
 extra_files:
   - base-config.yaml

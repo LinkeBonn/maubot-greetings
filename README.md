@@ -1,6 +1,6 @@
 # 🤖 WelcomeBot für Maubot – KV Bonn
 
-Willkommen beim Maubot-Plugin `WelcomeBot`, entwickelt vom Kreisverband DIE LINKE Bonn.  
+Willkommen beim Maubot-Plugin `GreetingsBot`, entwickelt vom Kreisverband DIE LINKE Bonn.  
 Dieses Plugin begrüßt neue Mitglieder im Matrix-Raum und informiert gleichzeitig einen IT-Raum über den Beitritt.  
 Perfekt für solidarische Willkommensgrüße und transparente Kommunikation in der Struktur. ❤️
 
@@ -48,10 +48,10 @@ mbc build
 oder
 
 ```bash
-zip -r welcome_bot.mbp welcome_bot.py maubot.yaml base-config.yaml
+zip -r greetings_bot.mbp greetings_bot.py maubot.yaml base-config.yaml
 ```
 
-Dadurch wird eine Datei wie `de.linkebonn.welcomebot-0.1.0.mbp` erstellt.  
+Dadurch wird eine Datei wie `de.linkebonn.greetingsbot-0.1.0.mbp` erstellt.  
 Diese kannst du dann in deiner Maubot-Instanz hochladen.
 
 Alternativ liegt eine `.mbp` Datei schon im Repository.

@@ -14,7 +14,7 @@ class Config(BaseProxyConfig):
         helper.copy("notification_message")
 
 
-class WelcomeBot(Plugin):
+class GreetingsBot(Plugin):
     async def start(self) -> None:
         await super().start()
         self.config.load_and_update()
